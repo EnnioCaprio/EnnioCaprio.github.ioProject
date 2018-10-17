@@ -1042,6 +1042,10 @@ footer{
 
     }
 
+    .place-description span{
+	font-size:14px;
+    }
+
     footer{
       height: 8vh;
     }
