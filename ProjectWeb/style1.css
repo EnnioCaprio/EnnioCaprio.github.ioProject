@@ -890,6 +890,16 @@ footer{
       height:100vh;
     }
 
+
+   .cover-caption-copy{
+     display: table-cell;
+     vertical-align: middle;
+     text-align: center;
+     color: #fff;
+     line-height: 40px;
+     text-transform: uppercase;
+   }
+
     .hero-text2{
       width:100%;
       height:20vh;
