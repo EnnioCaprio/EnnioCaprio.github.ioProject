@@ -466,6 +466,10 @@ footer{
     height: 8vh;
   }
 
+    footer p{
+    font-size: 14px;
+  }
+
 }
 
 .clearfix:after {
