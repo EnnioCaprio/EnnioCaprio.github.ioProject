@@ -410,6 +410,11 @@ footer{
     transform: translateX(-50%);
     background: #e3e3e3;
   }
+
+  footer{
+    height: 8vh;
+  }
+  
 }
 
   .clearfix:after {

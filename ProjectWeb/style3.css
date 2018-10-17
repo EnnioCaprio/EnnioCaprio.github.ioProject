@@ -223,7 +223,7 @@ textarea{
   height:75px;
   max-width:350px;
   max-height: 75px;
-  min-width:350px;
+  min-width:200px;
   min-height: 75px;
   border: 1px solid gray;
   border-radius: 3px;
@@ -405,14 +405,18 @@ footer{
   }
 
   .contact{
-    height:100vh;
+    height:130vh;
     border: 1px solid #000;
     position: relative;
     background: #e3e3e3;
   }
 
+  .contact-form p{
+    font-size: 16px;
+  }
+
   input{
-    width:250px;
+    width:200px;
   }
 
   #Name{
@@ -427,12 +431,8 @@ footer{
 
   textarea{
     margin-top: 10px;
-    width: 250px;
+    width:200px;
     height:75px;
-    max-width:250px;
-    max-height: 75px;
-    min-width:250px;
-    min-height: 75px;
     border: 1px solid gray;
     border-radius: 3px;
   }
@@ -460,6 +460,10 @@ footer{
     right:150px;
     display:grid;
     justify-content: center;
+  }
+
+  footer{
+    height: 8vh;
   }
 
 }

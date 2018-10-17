@@ -317,6 +317,10 @@ html,body{
     color:#333;
   }
 
+  footer{
+    height: 8vh;
+  }
+
 }
 
 .clearfix:after {
