@@ -58,7 +58,7 @@ html,body{
 
 .cover{
   height:70%;
-  background: url("playstation.jpg");
+  background: url("https://source.unsplash.com/user/erondu/1600x900");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
@@ -528,7 +528,7 @@ footer p{
   }
 
   .portfolio{
-    height:75vh;
+    height:65vh;
   }
 
   .cards{
@@ -554,6 +554,7 @@ footer p{
 
   #card{
     padding: 4px;
+    font-size: 14px;
   }
 
   .image{
