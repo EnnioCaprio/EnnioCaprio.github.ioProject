@@ -475,11 +475,17 @@ footer{
 @media (max-width:360px) {
 
   .contact{
-    height:150vh;
+    height:160vh;
     border: 1px solid #000;
     position: relative;
     background: #e3e3e3;
   }
+
+  .contact-form p{
+    font-size: 16px;
+  }
+
+
 
 }
 
