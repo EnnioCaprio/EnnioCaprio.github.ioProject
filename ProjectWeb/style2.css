@@ -279,7 +279,7 @@ html,body{
   .half-cover{
     height:100vh;
     width:100%;
-    background-image: url("guy.jpg");
+    background-image: url("photo/guy.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
