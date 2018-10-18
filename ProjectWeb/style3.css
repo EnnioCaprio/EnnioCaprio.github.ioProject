@@ -475,7 +475,7 @@ footer{
 @media (max-width:360px) {
 
   .contact{
-    height:160vh;
+    height:155vh;
     border: 1px solid #000;
     position: relative;
     background: #e3e3e3;
