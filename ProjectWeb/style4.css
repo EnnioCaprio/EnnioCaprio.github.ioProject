@@ -59,7 +59,7 @@ html,body{
 }
 
 .half-cover{
-  height:50vh;
+  height:400px;
   width:100%;
   background-image: url("photo/guy.jpg");
   background-position: center;
@@ -117,7 +117,7 @@ html,body{
 }
 
 .log-in{
-  height:60vh;
+  height:600px;
   border: 1px solid #000;
   position: relative;
 }
@@ -291,7 +291,7 @@ footer{
   }
 
   .log-in{
-    height:50vh;
+    height:450px;
   }
 
   .log-in-form2{
@@ -344,7 +344,7 @@ footer{
   .half-cover{
     height:100vh;
     width:100%;
-    background-image: url("photo/guy.jpg");
+    background-image: url("guy.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -383,7 +383,7 @@ footer{
   }
 
   .log-in{
-    height:75vh;
+    height:600px;
   }
 
   .log-in-form{
@@ -415,10 +415,9 @@ footer{
     height: 8vh;
   }
 
-    footer p{
-    font-size: 11px;
+  footer p{
+    font-size: 14px;
   }
-
 }
 
   .clearfix:after {

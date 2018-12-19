@@ -59,7 +59,7 @@ html,body{
 }
 
 .half-cover{
-  height:50vh;
+  height:400px;
   width:100%;
   background-image: url("photo/guy.jpg");
   background-position: center;
@@ -122,7 +122,7 @@ html,body{
 }
 
 .contact{
-  height:75vh;
+  height:750px;
   border: 1px solid #000;
   position: relative;
   background: #e3e3e3;
@@ -405,7 +405,7 @@ footer{
   }
 
   .contact{
-    height:130vh;
+    height:900px;
     border: 1px solid #000;
     position: relative;
     background: #e3e3e3;
@@ -466,8 +466,8 @@ footer{
     height: 8vh;
   }
 
-    footer p{
-    font-size: 11px;
+  footer p{
+    font-size: 14px;
   }
 
 }
@@ -475,17 +475,11 @@ footer{
 @media (max-width:360px) {
 
   .contact{
-    height:155vh;
+    height:150vh;
     border: 1px solid #000;
     position: relative;
     background: #e3e3e3;
   }
-
-  .contact-form p{
-    font-size: 15px;
-  }
-
-
 
 }
 

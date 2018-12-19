@@ -2,26 +2,27 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style--app.css">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style2.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   </head>
   <body>
     <header class="header clearfix">
-      <a href="#" class="header-logo">Ennio/Caprio</a>
-      <div class="header-icon-bar">
-        <span class=></span>
-        <span class=></span>
-        <span class=></span>
-      </div>
-      <ul class="header-list">
-        <li class="header-list-item"><a href="index.html">Home</a></li>
-        <li class="header-list-item"><a href="index.html#about-id">About</a></li>
-        <li class="header-list-item"><a href="index.html#portfolio-id">Portfolio</a></li>
-        <li class="header-list-item"><a href="index.html#contacts-id">Contacts</a></li>
+      <div class="container-header">
+      <a href="#" class="logo">Logo</a>
+      <a href="#" class="icon-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <ul class="list">
+        <li class="list-item"><a href="index.html">Home</a></li>
+        <li class="list-item"><a href="index.html#about-id">About</a></li>
+        <li class="list-item"><a href="index.html#portfolio-id">Portfolio</a></li>
+        <li class="list-item"><a href="index.html#contacts-id">Contacts</a></li>
       </ul>
+      </div>
     </header>
     <section class="cover">
       <div class="cover-filter"></div>
@@ -29,10 +30,11 @@
           <div class="cover-caption-copy">
             <h1 class="anim">Front-End Developer/UI designer</h1>
             <h2 class="anim">I create modern responsive websites and UI designs</h2>
-            <a href="#" class="button1 anim">Contact Me For Details!</a>
+            <a href="index.html#contacts-id" class="button1 anim">Contact Me For Details!</a>
           </div>
       </div>
-      <section class="app">
+    </section>
+    <section class="app">
         <div class="info-app">
           <div class="info-app-images">
             <img src="code.jpg" alt="" class="info-app-image">
@@ -48,20 +50,21 @@
             <div class="info-app-text">
               <p>This is a weight converter app , I made this app with html, css, javascript and bootstrap framework</p>
             </div>
-            <div class="info-app-links">
+            <div id="info-app-links">
               <a href="weight/index.html">Website</a>
-              <a href="https://github.com/EnnioCaprio/EnnioCaprio.github.ioProject">Git-hub</a>
+              <a href="https://github.com/EnnioCaprio">Git-hub</a>
             </div>
           </div>
         </div>
       </section>
-      <footer>
-      <p>&copy;Ennio Caprio, designed and developed by Ennio Caprio</p>
-      </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-      <script src="https://unpkg.com/scrollreveal@4.0.2/dist/scrollreveal.min.js" charset="utf-8"></script>
-      <script type="text/javascript" src="button.js"></script>
-      <script type="text/javascript" src="animation.js">
-      </script>
+    <footer class="footer">
+      Developed by Ennio Caprio, 2018
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js">
+    </script>
+    <script src="script.js">
+
+    </script>
     </body>
     </html>

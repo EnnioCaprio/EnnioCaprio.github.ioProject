@@ -279,7 +279,7 @@ html,body{
   .half-cover{
     height:100vh;
     width:100%;
-    background-image: url("photo/guy.jpg");
+    background-image: url("guy.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -317,20 +317,12 @@ html,body{
     color:#333;
   }
 
-  .info{
-  width:100%;
-  height: 30vh;
-  background: #e3e3e3;
-  position: relative;
-}
-
-
   footer{
     height: 8vh;
   }
 
-    footer p{
-    font-size: 11px;
+  footer p{
+    font-size: 14px;
   }
 
 }
